@@ -4,7 +4,7 @@ import { ingredientdemo } from '../../../assets/assets'
 const Ingredient = () => {
   return (
     <section className=" py-16 px-4 flex flex-col justify-center items-center text-white">
-          <h2 className="text-center text-4xl md:text-5xl font-semibold text-yellow-500 mb-12">Ingredients</h2>
+          <h2 className="text-center text-4xl md:text-5xl font-semibold text-[#EFAC2A]  mb-12">Ingredients</h2>
     
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {ingredientdemo.map((item, index) => (
@@ -18,8 +18,8 @@ const Ingredient = () => {
             ))}
           </div>
 
-          <button className='text-center py-2 px-5 mt-6 bg-amber-400 rounded-2xl'>Explore More</button>
-          <p className='text-center px-10 py-4'>A delightful blend of hand-picked ingredients from the best farms around the world make our pan masala a unique composition of Fennel Seeds. Betel, Magnesium, Chuna.and many rare flavouring substances, from where the story of master blend began.
+          <button className='text-center py-2 px-5 mt-6 bg-[#EFAC2A] rounded-2xl'>Explore More</button>
+          <p className='text-center hidden md:block px-10 py-4'>A delightful blend of hand-picked ingredients from the best farms around the world make our pan masala a unique composition of Fennel Seeds. Betel, Magnesium, Chuna.and many rare flavouring substances, from where the story of master blend began.
           </p>
         </section>
   )
