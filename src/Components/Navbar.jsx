@@ -17,7 +17,7 @@ const Navbar = () => {
             <div className="hidden sm:flex items-center gap-8">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
-                <Link to="/">Products</Link>
+                <Link to="/product">Products</Link>
                 <Link to="/">Contact</Link>
 
                
@@ -36,7 +36,7 @@ const Navbar = () => {
             <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-[#EFAC2A] shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
                 <Link to="/" className="block">Home</Link>
                 <Link to="/about" className="block">About</Link>
-                <Link to="/" className="block">Products</Link>
+                <Link to="/product" className="block">Products</Link>
                 <Link to="/" className="block">Contact</Link>
               
             </div>

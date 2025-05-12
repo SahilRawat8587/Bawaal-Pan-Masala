@@ -16,7 +16,7 @@ const HeroBanner = () => {
     
     <div className='flex items-center mt-6 font-medium'>
       
-      <Link to="/" className='group flex items-center gap-2 px-9 py-3 cursor-pointer bg-[#EFAC2A] text-black rounded-xl hover:bg-[#EFAC2A]/90 transition'>
+      <Link to="/product" className='group flex items-center gap-2 px-9 py-3 cursor-pointer bg-[#EFAC2A] text-black rounded-xl hover:bg-[#EFAC2A]/90 transition'>
           Explore Products <ArrowUpRight className='transition group-hover:translate-x-1 text-black' />
       </Link>
     </div>

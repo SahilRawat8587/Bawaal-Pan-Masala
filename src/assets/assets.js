@@ -14,6 +14,7 @@ import fennel from "./1 (1).png";
 import magnesium from "./9.png";
 import katha from "./7.png";
 import elaichi from "./5.png";
+import bawaalpan from "./3 1.png"
 
 
 export const assets={
@@ -23,7 +24,8 @@ export const assets={
     Goldbg,
     bawaal,
     glow,
-    herobanner
+    herobanner,
+    bawaalpan,
 
 }
 
