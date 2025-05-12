@@ -12,7 +12,7 @@ const HeroBanner = () => {
       <h1 className='text-6xl md:text-7xl lg:text-8xl font-bold text-justify md:text-center max-w-72 md:max-w-80 lg:max-w-105  text-white'>BAWAAL</h1>
       <h2 className='text-4xl md:text-4xl lg:text-6xl font-bold text-justify md:text-center max-w-72 md:max-w-80 lg:max-w-105  text-white'>PAN MASALA</h2>
 
-      <h3 className='text-xl md:text-lg lg:text-3xl mt-2 text-center md:text-left text-white'>Premium Blend of Lucknaxi Taste</h3>
+      <h3 className='text-xl md:text-lg lg:text-3xl mt-2 text-center md:text-left text-white'>Premium Blend of Lucknavi Taste</h3>
     
     <div className='flex items-center mt-6 font-medium'>
       
