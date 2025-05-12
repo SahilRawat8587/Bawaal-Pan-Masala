@@ -5,7 +5,7 @@ import IngredientGrids from './components/IngredientGrids'
 
 const About = () => {
   return (
-    <div className=' w-full bg-contain bg-center bg-repeat-y bg-[url("../../../../public/Bg.avif")]'>
+    <div className=' bg-contain bg-center bg-repeat bg-[url("/public/Bg.avif")]'>
       <Hero />
       <AboutSec />
       <IngredientGrids />

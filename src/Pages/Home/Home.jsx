@@ -6,7 +6,7 @@ import Testimonial from './components/Testimonial'
 
 const Home = () => {
   return (
-    <div className=' w-full bg-contain bg-repeat-y bg-[url("../../../../public/Bg.avif")]'>
+    <div className=' w-full bg-contain bg-center bg-repeat bg-[url("/public/Bg.avif")]'>
         <HeroBanner />
         <About />
         <Feature />
