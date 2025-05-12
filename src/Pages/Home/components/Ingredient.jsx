@@ -1,5 +1,6 @@
 import React from 'react'
 import { ingredientdemo } from '../../../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Ingredient = () => {
   return (
@@ -18,7 +19,7 @@ const Ingredient = () => {
             ))}
           </div>
 
-          <button className='text-center py-2 px-5 mt-6 bg-[#EFAC2A] rounded-2xl'>Explore More</button>
+          <Link to="/about" className='text-center py-2 px-5 mt-6 bg-[#EFAC2A] rounded-2xl'>Explore More</Link>
           <p className='text-center hidden md:block px-10 py-4'>A delightful blend of hand-picked ingredients from the best farms around the world make our pan masala a unique composition of Fennel Seeds. Betel, Magnesium, Chuna.and many rare flavouring substances, from where the story of master blend began.
           </p>
         </section>

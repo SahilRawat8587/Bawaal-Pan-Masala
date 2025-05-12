@@ -33,7 +33,7 @@ const Navbar = () => {
             </button>
 
             {/* Mobile Menu */}
-            <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-[#EFAC2A] shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
+            <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-[#EFAC2A] shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden z-50`}>
                 <Link to="/"  className="block" onClick={() => setOpen(false)}>Home</Link>
                 <Link to="/about"  className ="block" onClick={() => setOpen(false)}>About</Link>
                 <Link to="/product" className="block" onClick={() => setOpen(false)}>Products</Link>
