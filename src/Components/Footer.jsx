@@ -4,10 +4,10 @@ import { assets } from "../assets/assets";
 
 const Footer = () => {
   return (
-    <footer className="bg-yellow-500 text-black py-6">
+    <footer className="bg-[#EFAC2A] text-black py-6">
       {/* Top Section */}
       <div className="text-center mb-4">
-        <h1 className="text-2xl font-bold">KSSR LETSGROW PVT LTD. We're here</h1>
+        <h1 className="text-xl md:text-2xl font-bold">KSSR LETSGROW PVT LTD. We're here</h1>
       </div>
 
       {/* Navigation Links */}
