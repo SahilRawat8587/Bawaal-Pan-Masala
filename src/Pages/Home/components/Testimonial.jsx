@@ -33,10 +33,8 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <div className="relative bg-[#EFAC2A] h-auto p-8">
-        <div className='absolute inset-0'>
-      <img src={assets.Goldbg}  className="w-full hidden md:block" alt="Desktop Banner" />
-      </div>
+    <div className="relative bg-[#EFAC2A] bg-[url('/public/GoldBg.avif')] bg-contain bg-center bg-repeat h-auto p-8">
+        
       <div className=" flex flex-col items-center justify-center text-center">
         <p className="text-4xl font-bold max-w-160 mb-4">
             Customer Testimonials

@@ -18,7 +18,7 @@ const Navbar = () => {
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/product">Products</Link>
-                <Link to="/">Contact</Link>
+                <Link to="/contact">Contact</Link>
 
                
 
@@ -34,10 +34,10 @@ const Navbar = () => {
 
             {/* Mobile Menu */}
             <div className={`${open ? 'flex' : 'hidden'} absolute top-[60px] left-0 w-full bg-[#EFAC2A] shadow-md py-4 flex-col items-start gap-2 px-5 text-sm md:hidden`}>
-                <Link to="/" className="block">Home</Link>
-                <Link to="/about" className="block">About</Link>
-                <Link to="/product" className="block">Products</Link>
-                <Link to="/" className="block">Contact</Link>
+                <Link to="/"  className="block" onClick={() => setOpen(false)}>Home</Link>
+                <Link to="/about"  className ="block" onClick={() => setOpen(false)}>About</Link>
+                <Link to="/product" className="block" onClick={() => setOpen(false)}>Products</Link>
+                <Link to="/contact" className="block" onClick={() => setOpen(false)}>Contact</Link>
               
             </div>
 

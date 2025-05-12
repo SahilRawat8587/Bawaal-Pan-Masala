@@ -9,7 +9,7 @@ const ProductAccordion = () => {
     <section className="w-full h-full py-12 px-4 text-white">
       <h2 className="text-4xl font-semibold text-yellow-500 text-center mb-10">Product</h2>
 
-      <div className="max-w-3xl mx-auto rounded-2xl bg-[#f5b723] bg-opacity-90 text-black px-6 py-6 sm:flex sm:items-center sm:justify-between shadow-lg transition-all duration-300">
+      <div className="max-w-3xl mx-auto rounded-2xl bg-[#f5b723] bg-[url('/public/GoldBg.avif')] bg-contain bg-center bg-repeat bg-opacity-90 text-black px-6 py-6 sm:flex sm:items-center sm:justify-between shadow-lg transition-all duration-300">
         {/* Product Left Side */}
         <div className="flex items-center gap-6">
           <img
@@ -34,13 +34,12 @@ const ProductAccordion = () => {
 
       {/* Accordion Content */}
       <div
-        className={`max-w-3xl mx-auto bg-[#f5b723] bg-opacity-90 rounded-b-2xl px-6 overflow-hidden transition-all duration-500 ease-in-out ${
+        className={`max-w-3xl mx-auto bg-[#f5b723] bg-[url('/public/GoldBg.avif')] bg-contain bg-center bg-repeat bg-opacity-90 rounded-b-2xl px-6 overflow-hidden transition-all duration-500 ease-in-out ${
           isOpen ? 'max-h-[500px] py-4 mt-1' : 'max-h-0'
         }`}
       >
         <p className="text-black text-base sm:text-lg leading-relaxed">
-          Bawaal Pan is a premium blend of kesar (saffron) and elaichi (cardamom), known for its rich aroma and refreshing taste. Carefully crafted with traditional ingredients to offer a delightful experience, completely free from tobacco and supari.
-        </p>
+        A Lucknawi Taste that redefines elegance and taste! Indulge in the rich aroma of saffron (kesar) combined with the bold flavor of elaichi (cardamom). Crafted with premium ingredients, Bawaal Kesar Elaichi offers a smooth, refreshing experience with every pinch.        </p>
       </div>
     </section>
   );

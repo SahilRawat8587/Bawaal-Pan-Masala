@@ -1,7 +1,6 @@
 import logo from "./Bawaal ( logo )-01 1 (2).avif";
 import DesktopBanner from "./Banner . 1.avif"
 import MobileBanner from "./Untitled design (1).png";
-import Goldbg from "./Group 31 (2).avif";
 import bawaal from "./Group 48095443.avif";
 import glow from "./glow.avif"
 import herobanner from "./Group 48095444.webp"
@@ -21,7 +20,6 @@ export const assets={
     logo,
     DesktopBanner,
     MobileBanner,
-    Goldbg,
     bawaal,
     glow,
     herobanner,
