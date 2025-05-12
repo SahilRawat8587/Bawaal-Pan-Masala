@@ -6,12 +6,14 @@ const Footer = () => {
   return (
     <footer className="bg-[#EFAC2A] text-black py-6">
       {/* Top Section */}
-      <div className="text-center mb-4">
-        <h1 className="text-xl md:text-2xl font-bold">KSSR LETSGROW PVT LTD. We're here</h1>
+      <div className="text-center mb-4 px-4">
+        <h1 className="text-2xl font-bold">
+          KSSR LETSGROW PVT LTD. We're here
+        </h1>
       </div>
 
       {/* Navigation Links */}
-      <div className="flex justify-center space-x-8 mb-4">
+      <div className="flex flex-wrap justify-center gap-4 mb-4 px-4">
         {[
           { name: "Home", path: "/" },
           { name: "About Us", path: "/about" },
@@ -21,23 +23,23 @@ const Footer = () => {
           <Link
             key={index}
             to={link.path}
-            className="text-lg font-medium hover:underline"
+            className="md:text-lg font-medium hover:underline"
           >
             {link.name}
           </Link>
         ))}
       </div>
 
-      <hr className="border-black mb-4" />
+      <hr className="border-black mb-4 mx-4" />
 
       {/* Bottom Section */}
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center px-4">
         <img
           src={assets.logo}
           alt="Bawaal Pan Masala"
-          className="w-24 mb-2"
+          className="w-20 sm:w-24 mb-2"
         />
-        <p className="text-sm">
+        <p className="text-sm text-center">
           &copy; 2025 ABC. All Rights Reserved
         </p>
       </div>
