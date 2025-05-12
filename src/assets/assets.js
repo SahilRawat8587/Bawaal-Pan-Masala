@@ -38,3 +38,10 @@ export const ingredients = [
     { name: 'Katha', image: katha},
     { name: 'Elaichi', image: elaichi },
   ];
+
+export const ingredientdemo = [
+    { name: 'Fennel Seeds', image: fennel },
+    { name: 'Betel', image: betel },
+    { name: 'Magnesium', image: magnesium },
+    { name: 'Chuna', image: chuna },
+];

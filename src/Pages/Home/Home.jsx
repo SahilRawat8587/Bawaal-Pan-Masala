@@ -3,6 +3,7 @@ import HeroBanner from './components/HeroBanner'
 import About from './components/About'
 import Feature from './components/Feature'
 import Testimonial from './components/Testimonial'
+import Ingredient from './components/Ingredient'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <About />
         <Feature />
         <Testimonial />
+        <Ingredient />
       
     </div>
   )
