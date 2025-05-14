@@ -7,6 +7,7 @@ import About from './Pages/About/About'
 import Product from './Pages/Product/Product'
 import ContactUs from './Pages/Contact/ContactUs'
 import Footer from './Components/Footer'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
   
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Toaster position="top-right" />
 
       <Routes>
         <Route path="/" element={<Home/>} />
