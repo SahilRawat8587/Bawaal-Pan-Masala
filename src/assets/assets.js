@@ -14,6 +14,7 @@ import magnesium from "./9.png";
 import katha from "./7.png";
 import elaichi from "./5.png";
 import bawaalpan from "./3 1.png"
+import bawaalcurtain from "./Curves.webp";
 
 
 export const assets={
@@ -24,6 +25,7 @@ export const assets={
     glow,
     herobanner,
     bawaalpan,
+    bawaalcurtain,
 
 }
 
