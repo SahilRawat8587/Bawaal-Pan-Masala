@@ -2,7 +2,6 @@ import React from 'react'
 import HeroBanner from './components/HeroBanner'
 import About from './components/About'
 import Feature from './components/Feature'
-import Testimonial from './components/Testimonial'
 import Ingredient from './components/Ingredient'
 import DisplayBanner from './components/DisplayBanner'
 
@@ -12,7 +11,7 @@ const Home = () => {
         <HeroBanner />
         <About />
         <Feature />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <Ingredient />
         <DisplayBanner />
       
